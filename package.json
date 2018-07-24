@@ -1,0 +1,27 @@
+{
+  "name": "qantas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.1.9",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "recompose": "^0.27.1",
+    "styled-components": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write src/**/*.js"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "prettier": "^1.13.7",
+    "react-test-renderer": "^16.4.1"
+  }
+}
